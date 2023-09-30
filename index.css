@@ -1,0 +1,292 @@
+/*Cabeçalho do site e links*/
+head {
+}
+
+/*corpo do site*/
+body {
+  background-color: whitesmoke;
+}
+
+/*Cabeçalho do body (corpo)*/
+header {
+}
+
+/*Parte principal do body (corpo)*/
+main {
+
+  
+}
+
+div.main{
+
+width: 100%;
+
+}
+
+/*Rodapé do body (corpo)*/
+footer {
+}
+
+/*Detalhes*/
+
+/*CABEÇALHO*/
+
+div.conteinercabeçalho{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.imglogo {
+  width: 20%;
+  height: 20%;
+  cursor: pointer;
+}
+
+img.imglogo1 {
+  width: 5%;
+  height: 5%;
+}
+
+img.imgnotificacao {
+  width: 4%;
+  height: 5%;
+  cursor: pointer;
+}
+img.imgnotificacaoperfil {
+  width: 4%;
+  height: 5%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+div.barrapesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  height: 40px;
+  border-radius: 20px 20px;
+  background-color: gainsboro;
+  font-size: 100%;
+  color: gray;
+  cursor: text;
+}
+
+div.barrapesquisa:hover {
+  border: 1px solid rgb(180, 180, 180);
+}
+
+div.caixanotificacao {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  justify-items: auto;
+  width: 80%;
+  height: auto;
+  margin: 10px;
+  gap: 6px;
+  color: black;
+}
+
+img.lupa {
+  width: 5%;
+  height: auto;
+  margin: 4%;
+}
+
+img.buttonmais {
+  width: 20px;
+  height: 20px;
+}
+
+button.buttonmais {
+  border: 1px silver solid;
+  background-color: whitesmoke;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button.buttonmais:hover {
+  transition: 0, 1ms;
+  background-color: rgb(230, 230, 230);
+}
+
+hr.hr{
+  width: 100%;
+  border: 1px solid silver
+}
+
+
+
+/*PILAR DO BODY*/
+
+div.conteinercoluna{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+img.img{
+  width: 25px;
+ height: 25px;
+}
+
+button.buttonpilar{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: black;
+  background-color: whitesmoke;
+  border: 0px;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button.buttonpilar:hover{
+  background-color: rgb(240, 240, 240);
+}
+
+hr.hrr{
+  width: 100%;
+  border: 1px solid silver
+}
+
+p.ppilar{
+margin: 5px;
+color: gray;
+
+}
+
+div.conteineruser{
+display: flex;
+align-items: center;
+margin-left: 5px;
+width: 15%;
+cursor: pointer;
+}
+
+div.conteineruser:hover{
+background-color: rgb(240, 240, 240);
+}
+
+div.user{
+margin-top: 10px;
+margin-left: 10px;
+}
+
+img.user{
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+img.user1{
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+div.pname{
+  color: gray;
+  font-size: small;
+}
+
+
+/*PARTE DO VIDEO*/
+
+div.conteinervideo{
+width: 80%;
+position: absolute;
+top: 140px;
+left: 600px;
+}
+
+video{
+  
+  width: 400px; 
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+    
+}
+
+.fotousuariovideo{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+position: absolute;
+top: 80px;
+left: 540px;
+cursor: pointer;
+}
+
+.textovideo{
+  position: absolute;
+  top: 80px;
+  left: 600;
+  font-family:sans-serif;
+  cursor: pointer;
+}
+
+a.link{
+  color:dodgerblue;
+}
+
+button.buttonvideoseguir{
+  position: absolute;
+  top: 80px;
+  left: 1050px;
+  color: rgb(255, 52, 52);
+  background-color: whitesmoke;
+  border: 1px solid red;
+  border-radius: 2px;
+  width: 90px;
+  height: 35px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button.buttonvideoseguir:hover{
+  background-color: rgb(255, 235, 235);
+  cursor: pointer
+}
+
+.bottoeslike{
+  display: flex;
+  flex-direction: column;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 450px;
+  left: 1000px;
+  margin-left: 20px;
+}
+
+.botoeslike{
+background-color: rgb(230, 230, 230);
+border-radius: 50%;
+padding: 10px;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.bottoeslike{
+  font-weight: bold;
+  font-family:Tahoma,sans-serif;;
+  color: rgba(22, 24, 35, .75);
+  font-size: 12px;
+}
+
+/*regula o tamanho original para se adaptar a tela (Layout responsivo)*/
+@media screen and (max-width: 768px) {
+}
